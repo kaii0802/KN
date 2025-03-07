@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Chúc mừng ngày 8/3</title>
+    <link type="text/css" rel="stylesheet" href="./asset/style.css">
+    <script type="text/javascript" src="./asset/jquery.min.js"></script>
+    <script type="text/javascript" src="./asset/jscex.min.js"></script>
+    <script type="text/javascript" src="./asset/jscex-parser.js"></script>
+    <script type="text/javascript" src="./asset/jscex-jit.js"></script>
+    <script type="text/javascript" src="./asset/jscex-builderbase.min.js"></script>
+    <script type="text/javascript" src="./asset/jscex-async.min.js"></script>
+    <script type="text/javascript" src="./asset/jscex-async-powerpack.min.js"></script>
+    <script type="text/javascript" src="./asset/functions.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./asset/love.js" charset="utf-8"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Dancing Script', cursive;
+            background-color: #ffe4e1; /* light pink */
+            text-align: left;
+        }
+
+        #text {
+            font-size: 28px;
+            color: #d63384;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="wrap">
+            <div id="text">
+                <div id="code">
+                    <font color="#000">
+                        <span class="say">Dear MyLove,</span><br>
+                        <span class="say">Em bé của anh ơi, nhân dịp 8/3 này. Chúc em luôn vui vẻ, hạnh phúc và tràn đầy năng lượng tích cực trong mỗi ngày trôi qua. Em là một cô gái tuyệt vời, mạnh mẽ và đầy bản lĩnh, hãy luôn tự hào về chính mình nhé!
+
+                     Em là điều tuyệt vời nhất mà anh may mắn có được, và anh trân trọng từng khoảnh khắc bên em. Cảm ơn em vì đã xuất hiện trong cuộc đời anh, mang đến cho anh thật nhiều niềm vui và ý nghĩa.
+                            
+                            Yêu em bé của anh nhiều lắm! Chúc em một ngày 8/3 thật rực rỡ và tràn ngập yêu thương 💖💖💖.</span><br>
+    
+                        <span class="say">Yêu em! ❤️</span><br>
+                        <span class="say"><span class="space"><img width="100px" height="100px" src="image/tym.png" alt=""></span></span><br>
+                        <span class="say"><span class="space"></span> --From SMK with luv :3-- </span>
+                    </font>
+                </div>
+            </div>
+            <canvas id="canvas" width="1100" height="680"></canvas>
+        </div>
+    </div>
+
+    <audio id="myAudio" autoplay="autoplay">
+        <source src="music/I-Do-911.mp3" type="audio/mp3" />
+    </audio>
+
+</body>
+<script src="./asset/script.js"></script>
+<script>
+    $(document).ready(function() {
+        // Increase the density of the tree canopy
+        for (let i = 0; i < 20; i++) {
+            createLeaf();
+        }
+
+        // Make leaves fall more frequently
+        setInterval(function() {
+            createLeaf();
+        }, 500); // Adjust the interval as needed
+    });
+</script>
+</html>
